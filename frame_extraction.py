@@ -97,7 +97,7 @@ def process_videos(video_urls, base_output_dir, target_size=(212, 212)):
 # Example usage for local .mov file
 local_video_path = "Data preparation/drones3.mov"  # Replace with your .mov file path
 output_directory = 'suas_dataset'
-target_size = (212, 212)
+target_size = (224, 224)
 
 # Process local video
 try:
